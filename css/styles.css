@@ -12,12 +12,10 @@ ul,
 ol {
     list-style-type: none;
 }
-img {
-    display: block;
-}
 
 body{
 font-family: "Roboto", sans-serif;
+background-color: #FFFFFF;
 color: #434455;
 }
 /*/Comon styles*/
@@ -33,7 +31,7 @@ font-family: 'Raleway', sans-serif;
     color: #4d5ae5;
 }
 .logo-style{
-color: #2e2f42;
+color: #f4f4fd;
 }
 
 .menu-link{
@@ -108,6 +106,14 @@ color: #2e2f42;
         letter-spacing: 0.02em;
         color: #434455;
 }
+.bottom-text{
+    color: #F4F4FD;
+    font-family: "Roboto", sans-serif;
+         font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        }
+
 .secondary-title {
         font-weight: 700;
         font-size: 36px;
@@ -142,13 +148,7 @@ background-color: #FFFFFF;
         letter-spacing: 0.02em;
         color: #2e2f42;
 }
-.portfolio-text{
- font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;   
-}
+
 .bottom{
     background-color: #2e2f42;
-    
 }
