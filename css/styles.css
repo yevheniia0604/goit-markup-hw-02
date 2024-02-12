@@ -18,22 +18,22 @@ img {
 
 body{
 font-family: "Roboto", sans-serif;
-background: #fff;
+color: #434455;
 }
 /*/Comon styles*/
 
 /*Page header styles*/
 .logo{
-    font-family: 'Raleway', sans-serif;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #2e2f42;
+font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
 }
 .logo-style{
-color: #4d5ae5;
+color: #2e2f42;
 }
 
 .menu-link{
@@ -47,50 +47,54 @@ color: #2e2f42;
 .menu-link:focus{
     color: #404bbf;
 }
-.contacts{
+.contact{
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        font-style: normal;
         color: #434455;
 }
-.contacts:hover,
-.contacts:focus{
+.contact:hover,
+.contact:focus{
     color: #404bbf;
 }
 /*/Page header styles*/
 
 /* Hero Sections Styles*/
-h1 {
+.main-page{
+    background-color:#2e2f42;
+}
+.title{
         font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
-        color: #fff;
+        color: #ffffff;
         text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
        
     }
  button {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #fff;
-    cursor:pointer;
-    border-radius: 4px;
-        padding: 16px 32px;
-        width: 169px;
-        height: 56px;
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-        background: #4d5ae5;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5
     }
 
     button:hover,
     button:focus{
-            background: #404bbf;
+        color: #ffffff;
+        background: #404bbf;
     }
 /* /Hero Sections Styles*/
+.section-team{
+    background-color: #F4F4FD;
 
+}
  .menu-benefits-title {
         font-weight: 500;
         font-size: 20px;
@@ -104,7 +108,7 @@ h1 {
         letter-spacing: 0.02em;
         color: #434455;
 }
-h2 {
+.secondary-title {
         font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
@@ -113,7 +117,9 @@ h2 {
         text-align: center;
         color: #2e2f42;
 }
-
+.team-member{
+background-color: #FFFFFF;
+}
 .position{
     font-size: 16px;
     line-height: 1.5;
@@ -141,4 +147,8 @@ h2 {
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;   
+}
+.bottom{
+    background-color: #2e2f42;
+    
 }
